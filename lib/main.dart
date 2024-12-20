@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_1/core/app_theme/app_theme.dart';
 import 'package:flutter_application_1/view/onboarding_screen.dart';
 
 void main() {
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'Login and Register',
-        theme: ThemeData(primarySwatch: Colors.blue),
+        theme: getApplicationTheme(),
         home: const OnboardingScreen());
   }
 }

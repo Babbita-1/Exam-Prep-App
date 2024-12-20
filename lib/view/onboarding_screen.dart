@@ -21,13 +21,15 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
     },
     {
       "title": "Prepare. Practice. Succeed",
-      "description": "SmartPrep equips you with the best resources for exam excellence.",
+      "description":
+          "SmartPrep equips you with the best resources for exam excellence.",
       "image": "lib/assests/image/depositphotos_10271860-Open--book.jpg",
     },
     {
       "title": "Compete & Succeed",
       "description": "Sharpen your skills for competitive exams.",
-      "image": "lib/assests/image/high-angle-kid-cheating-school-test_23-2150105044.jpg",
+      "image":
+          "lib/assests/image/high-angle-kid-cheating-school-test_23-2150105044.jpg",
     },
   ];
 
@@ -48,7 +50,7 @@ class _OnboardingScreenState extends State<OnboardingScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: const Color.fromARGB(255, 250, 242, 248),
+      backgroundColor: const Color.fromARGB(220, 250, 242, 248),
       body: Column(
         children: [
           Expanded(
